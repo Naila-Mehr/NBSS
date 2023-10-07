@@ -1,0 +1,72 @@
+/*############################### font awesome start ################## */
+@import url("https://fonts.googleapis.com/css2?family=Gothic+A1:wght@100;200;300;400;500;600;700;800&family=Inter:wght@100;200;300;400;500;600&family=Montserrat:wght@100;200;300;400;500;600;700;800&family=Poppins:wght@300;400;500&display=swap");
+/*############################### font awesome end ################## */
+body {
+  font-family: Gothic + A1;
+}
+
+/* ===================================== About US CSS ================================== */
+.cardShadow {
+  box-shadow: rgba(50, 50, 93, 0.25) 0px 50px 100px -20px,
+    rgba(0, 0, 0, 0.3) 0px 30px 60px -30px !important;
+}
+.about-us {
+  background-color: #fff;
+}
+
+@media screen and (max-width: 940px) {
+  .about-us {
+    padding: 30px 10px;
+  }
+}
+.about-us .text h5 {
+  color: var(--paragraph-color4);
+  font-weight: 600;
+  
+}
+.about-us .text p {
+  font-weight: 400;
+  font-size: 18px;
+  color: var(--paragraph-color4);
+  margin-bottom: 10px;
+  text-align: justify;
+}
+
+.about-us .image img {
+  width: 100%;
+  border-radius: 15px;
+}
+.session-title h2 {
+  width: 100%;
+  text-align: center;
+  color: var(--heading6-color);
+  font-weight: 600;
+}
+
+.session-title p {
+  max-width: 850px;
+  text-align: center;
+  font-size: 18px;
+  float: none;
+  margin: auto;
+  color: var(--paragraph-color4);
+}
+.about-strategy h2 {
+  font-weight: 600;
+  color: var(--heading6-color);
+}
+.about-strategy p {
+  font-weight: 400;
+  color: var(--paragraph-color4);
+  font-size: 18px;
+}
+.about-services p{
+    font-weight: 400;
+    color: var(--paragraph-color4);
+    font-size: 18px;
+}
+.quotation i {
+ font-size: 30px;
+ color: var(--paragraph-color1);
+}
+

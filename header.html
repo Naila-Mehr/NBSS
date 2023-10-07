@@ -1,0 +1,107 @@
+<!doctype html>
+<html lang="en">
+
+<head>
+    <meta charset="utf-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1">
+    <link rel="icon" type="image/x-icon" href="./assets/images/main-logo.png">
+
+    <title>header</title>
+    <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/6.4.2/css/all.min.css" integrity="sha512-z3gLpd7yknf1YoNbCzqRKc4qyor8gaKU1qmn+CShxbuBusANI9QpRohGBreCFkKxLhei6S9CQXFEbbKuqLg0DA==" crossorigin="anonymous" referrerpolicy="no-referrer" />
+    <link rel="stylesheet" href="./assets/css/header.css">
+   <link rel="stylesheet" href="./assets/css/style.css">
+    <link href="https://cdn.jsdelivr.net/npm/bootstrap@5.3.1/dist/css/bootstrap.min.css" rel="stylesheet"
+        integrity="sha384-4bw+/aepP/YC94hEpVNVgiZdgIC5+VKNBQNGCHeKRQN+PtmoHDEXuppvnDJzQIu9" crossorigin="anonymous">
+</head>
+
+<body>
+    <!-- this is a header -->
+    <!--############header start########### -->
+    <div class="container-fluid  mainnavbar">
+      <nav class="navbar navbar-expand-lg ">
+          <div class="container-fluid ">
+
+              <a class="navbar-brand logo d-flex" href="#">
+                  <img src="./assets/images/main-logo.png" class="img-fluid" alt="...">
+                  <span>
+                      <h2 class="">NBS Pakistan</h2>
+                  </span>
+
+              </a>
+
+              <button class="navbar-toggler" type="button" data-bs-toggle="collapse"
+                  data-bs-target="#navbarSupportedContent" aria-controls="navbarSupportedContent"
+                  aria-expanded="false" aria-label="Toggle navigation">
+                  <span class="navbar-toggler-icon header-icon"></span>
+              </button>
+              <div class="collapse navbar-collapse" id="navbarSupportedContent">
+                  <ul class="navbar-nav m-auto mb-2 mb-lg-0 nav-list">
+                      <li class="nav-item mx-1">
+                          <a class="nav-link" aria-current="page" href="index.html">Home</a>
+                      </li>
+                      <li class="nav-item mx-1">
+                          <a class="nav-link" href="About.html">About us</a>
+                      </li>
+
+                      <li class="nav-item mx-21">
+                          <a class="nav-link " aria-disabled="true" href="Gallery.html">Gallery</a>
+                      </li>
+
+                      <li class="nav-item mx-1">
+                          <a class="nav-link " aria-disabled="true" href="Blog.html">Blog</a>
+                      </li>
+
+                      <!-- <li class="nav-item">
+                  <a class="nav-link " aria-disabled="true">Process</a>
+                </li> -->
+
+                      <li class="nav-item mx-1">
+                          <a class="nav-link " aria-disabled="true" href="Event.html">Event</a>
+                      </li>
+
+                      <li class="nav-item mx-1">
+                          <a class="nav-link " aria-disabled="true" href="Contact.html">Contact us</a>
+                      </li>
+
+                      <!-- <li class="nav-item">
+                  <a class="nav-link " aria-disabled="true">Partnerships</a>
+                </li>
+
+                <li class="nav-item">
+                  <a class="nav-link " aria-disabled="true">FAQ</a>
+                </li> -->
+
+
+                  </ul>
+                  <div class="admin rounded-pill text-center">
+                      <a class="btn  " href="./signin.html">
+                         
+                          <span>Admin Login</span>
+                      </a>
+                      <!-- <button type="button" class="btn  px-3">View Details</button> -->
+
+                  </div>
+            
+              </div>
+          </div>
+      </nav>
+  </div>
+   
+    <script src="https://cdn.jsdelivr.net/npm/bootstrap@5.3.1/dist/js/bootstrap.bundle.min.js"
+        integrity="sha384-HwwvtgBNo3bZJJLYd8oVXjrBZt8cqVSpeBNS5n7C8IVInixGAoxmnlMuBnhbgrkm"
+        crossorigin="anonymous"></script>
+<!-- sticky-header -->
+<script>
+    window.addEventListener("scroll", function() {
+        const header = document.querySelector(".navbar");
+        if (window.scrollY > 0) {
+            header.classList.add("sticky");
+        } else {
+            header.classList.remove("sticky");
+        }
+    });
+       </script>
+
+</body>
+
+</html>

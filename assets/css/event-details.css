@@ -1,0 +1,50 @@
+@import url("https://fonts.googleapis.com/css2?family=Gothic+A1:wght@100;200;300;400;500;600;700;800&family=Inter:wght@100;200;300;400;500;600&family=Montserrat:wght@100;200;300;400;500;600;700;800&family=Poppins:wght@300;400;500&display=swap");
+/*############################### font awesome end ################## */
+body {
+  font-family: Gothic + A1;
+}
+.membership-pic{
+  background-image: url(/assets/images/7xm.xyz577725.jpg);
+  height: auto;
+  background-size: cover;
+  object-fit: cover;
+}
+.membership-text h1{
+color: var(--heading1-color);
+font-weight: 700;
+font-size: 3rem;
+}
+.membership-text p{
+  color: var(--paragraph-color2);
+  font-weight: 500;
+  font-size: 1.3rem;
+  line-height: 1.45;
+  }
+/* .event-details-img img{
+height:70vh;
+background-repeat: no-repeat;
+background-size: cover;
+object-fit: cover;
+object-position: start;
+
+background: linear-gradient(0deg, rgba(0, 0, 0, 0.50) 0%, rgba(0, 0, 0, 0.50) 100%), lightgray 0px -170.162px / 100% 245.098% no-repeat;
+
+} */
+
+.event-details-heading{
+  font-size:40px;
+  font-weight: 700;
+  margin-top: 10px;
+}
+.event-details-para{
+  font-size: 20px;
+  color: var( --paragraph-color4);
+}
+
+@media screen and (max-width:768px){
+
+  .event-details-img img{
+    height:100vh;
+   
+    }
+}

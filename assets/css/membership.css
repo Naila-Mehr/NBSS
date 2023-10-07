@@ -1,0 +1,64 @@
+/*############################### font awesome start ################## */
+@import url("https://fonts.googleapis.com/css2?family=Gothic+A1:wght@100;200;300;400;500;600;700;800&family=Inter:wght@100;200;300;400;500;600&family=Montserrat:wght@100;200;300;400;500;600;700;800&family=Poppins:wght@300;400;500&display=swap");
+/*############################### font awesome end ################## */
+body{
+    font-family: Gothic+A1;
+}
+/* <!--##################### membership start################# --> */
+.membership-pic{
+    background-image: url(/assets/images/membership-pic.jpg);
+    height: auto;
+    background-size: cover;
+    object-fit: cover;
+}
+.membership-text h1{
+color: var(--heading1-color);
+font-weight: 700;
+font-size: 3rem;
+}
+.membership-text p{
+    color: var(--paragraph-color2);
+    font-weight: 500;
+    font-size: 1.3rem;
+    line-height: 1.45;
+    }
+.membership-content h2{
+    color: var(--heading3-color);
+    font-weight: 700;
+    font-size: 2.5rem;  
+}
+.membership-content p{
+    color: var(--paragraph-color3);
+    font-weight: 400;
+    font-size: 1.2rem;
+    line-height: 1.45;
+}
+  .membership-button .btn.memberjoin-us {
+    background-color: var(--background-button-color4);
+    border: 2px solid var(--background-button-color4);
+    color:  var(--button-color); 
+    width: 170px;
+    font-weight: 700;
+    font-size: 18px;
+    padding: 10px 20px;
+    border-radius: 50px; 
+    text-decoration: none; 
+    transition: background-color 0.3s ease-in-out; 
+}
+
+.membership-button .btn.memberjoin-us:hover {
+    background-color: var(--background-button-color4);
+    border-color: var(--background-button-color4); 
+    color: var(--button-color);
+}
+
+    /* @media (max-width: 567px) {
+        .membership-text h1 {
+            font-size: 2rem; 
+        }
+        
+        .membership-text p {
+            font-size: 1rem; 
+        }
+    } */
+/* <!--##################### membership end################### --> */

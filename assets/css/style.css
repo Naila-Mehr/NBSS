@@ -1,0 +1,460 @@
+/*############################### font awesome start ################## */
+@import url("https://fonts.googleapis.com/css2?family=Gothic+A1:wght@100;200;300;400;500;600;700;800&family=Inter:wght@100;200;300;400;500;600&family=Montserrat:wght@100;200;300;400;500;600;700;800&family=Poppins:wght@300;400;500&display=swap");
+/*############################### font awesome end ################## */
+
+/*############################### variables start##################### */
+:root {
+  --navbar-color: #1d1128;
+  --navbar-color1: #fff;
+
+  --heading-color: #ef3f34;
+  --heading1-color: #fff;
+  --heading2-color: #0a060e;
+  --heading3-color: #000;
+  --heading4-color: #f3f4f6;
+  --heading5-color: #174b61;
+  --heading6-color: #1d1128;
+
+  --sub-heading-color: rgba(255, 255, 255, 0.8);
+
+  --icon-color1: #ef3f34;
+  --icon-color2: #fff;
+  --icon-color3: #1d1128;
+  --icon-color4: #174b61;
+
+  --paragraph-color1: #ef3f34;
+  --paragraph-color2: #fff;
+  --paragraph-color3: #1d1128;
+  --paragraph-color4: #174b61;
+
+
+  --background-color1: #f5f5f5;
+  --background-color2: #ef3f34;
+  --background-color3: transparent;
+  --background-color4: #174b61;
+  --background-color5: #1d1128;
+
+  --background-button-color: #ef3f34;
+  --background-button-color1: #fff;
+  --background-button-color2: #f5f5f5;
+  --background-button-color3: #1d1128;
+  --background-button-color4: #174b61;
+
+  --button-border-color1: #d8d8d8;
+  --button-border-color2: #ef3f34;
+  --button-border-color3: #1d1128;
+  --button-border-color4: #174b61;
+
+  /* Website Button start  */
+  --button-hover-color: #ef3f34;
+
+  --button-color: #fff;
+  --button-color1: #ef3f34;
+  --button-color2: #174b61;
+  --button-color3: #1d1128;
+  /* Website Button end */
+  --progress-bar-color: #ef3f34;
+  --progress-bar-color: #174b61;
+
+  --border-color1: #ef3f34;
+  --border-color2: #d9d9d9;
+
+  --hover-color: #ef3f34;
+  --hover-color2: #174b61;
+
+  --hr-color: #667084;
+
+  --before-line-color: ;
+
+
+  --Footer-background-color: #174b61;
+  --Footer-color1: #fff;
+}
+
+
+
+/*############################### variables end##################### */
+body {
+  font-family: Gothic + A1;
+}
+   /* path */
+   .path{
+    color: var(--navbar-color);
+   }
+/* ===================================== Slider CSS start ================================== */
+.slider-detail img {
+  background-size: cover;
+  object-fit: cover;
+  background-repeat: no-repeat;
+  height: 80vh;
+  position: relative;
+  
+}
+.slider-detail img::before {
+  content: ""; /* Required for pseudo-elements */
+  position: absolute;
+  top: 0;
+  left: 0;
+  width: 100%;
+  height: 100%;
+  background-color: rgba(0, 0, 0, 0.5); 
+  /* background-image: linear-gradient(to right, #434343 0%, black 100%); */
+  z-index: 1 !important;
+}
+.slider-detail .slide-p {
+  text-align: left;
+  bottom: 80px;
+}
+
+.slider-detail .slide-p h5 {
+  font-size: 2.5rem;
+  margin-left: -40px;
+  font-weight: 600;
+  text-align: center;
+}
+
+.slider-detail .slide-p p {
+  margin-left: -35px;
+  margin-top: 2.2rem;
+  font-size: 19px;
+  text-align: center;
+}
+
+.slider-detail .vbh {
+  margin-left: -40px;
+  text-align: center;
+}
+
+.vbh .slide-button {
+  padding-left: 20px;
+  padding-right: 20px;
+  margin-top: 10px;
+  width: 170px;
+  margin-left: 10px;
+  font-weight: 700;
+  font-size: 18px;
+  border: 2px solid var(--background-button-color4);
+  background-color: var(--background-button-color4);
+  color: var(--button-color);
+  border-radius: 50px;
+} 
+.vbh a{
+  text-decoration: none;
+
+}
+.vbh .slide-button:active {
+  background-color: var(--background-button-color4);
+  border: var(--background-button-color4);
+  color: var(--button-color);
+}
+.slider-detail .vdg-cur {
+  color: var(--button-color);
+  padding-top: 70px;
+}
+
+.slide-icon {
+  color: var(--icon-color2);
+  height: 35px;
+  width: 100px;
+  font-weight: 800;
+  background-size: 100%, 100%;
+}
+@media screen and (max-width: 1180px) {
+  .slider-detail .carousel-caption {
+    bottom: 30px;
+  }
+}
+
+@media screen and (max-width: 1057px) {
+  .slider-detail .carousel-caption h5 {
+    font-size: 32px;
+  }
+}
+
+@media screen and (max-width: 768px) {
+  .slider-detail .slide-p p {
+    margin-left: -20px;
+    margin-top: 10px;
+    text-align: center;
+  }
+  .slider-detail .slide-p h5 {
+    margin-left: -20px;
+    text-align: center;
+  }
+  
+}
+@media screen and (max-width: 568px) {
+  .slide-p{
+    left: 20%;
+  }
+  .slider-detail .vbh .slide-button {
+  
+    width: 100%;
+   
+  }
+}
+@media screen and (max-width: 500px) {
+  
+  .slider-detail .vbh .slide-button {
+    margin-top: 5px;
+  }
+  .slider-detail .carousel-caption h5 {
+    font-size: 1.5rem;
+  }
+  .slider-detail .carousel-caption p {
+    font-size: 1rem;
+  }
+}
+@media screen and (max-width: 425px) {
+  .slider-detail .carousel-caption {
+    bottom: 50px;
+  }
+}
+
+/* ===================================== Slider CSS end ================================== */
+.masterheading {
+  position: relative;
+  text-align: center;
+  color: var(--paragraph-color3);
+}
+.websitebutton {
+  border: 2px solid var(--border-color1);
+  color: var(--button-color1);
+  font-weight: 700;
+  font-size: 18px;
+  padding-left: 30px !important;
+  padding-right: 30px !important;
+  border-radius: 50px;
+}
+.websitebutton:hover {
+  background-color: var(--hover-color2);
+  color: var(--button-color);
+  /* transition: 0.3s; */
+}
+/* <!-- Every two seconds starts... --> */
+.save-life{
+  box-shadow: rgba(99, 99, 99, 0.2) 0px 2px 8px 0px;;
+}
+.second-increase h1{
+  font-weight: 700;
+  font-size: 5rem;
+  color: var(--heading-color);
+}
+.second-content h2{
+  font-weight: 800;
+  color: var(--heading5-color); 
+}
+.second-content p{
+  font-size: 18px;
+  font-weight: 500;
+  color: var(--paragraph-color3); 
+}
+
+/* <!-- Every two seconds ends... --> */
+/*############### card section start########### */
+.cardShadow {
+  box-shadow: rgba(50, 50, 93, 0.25) 0px 50px 100px -20px,
+    rgba(0, 0, 0, 0.3) 0px 30px 60px -30px !important;
+}
+.cardImg {
+  border-radius: 15px 15px 0 0 !important;
+}
+
+.cardBorder {
+  border-radius: 15px 15px 15px 15px !important;
+}
+
+.cardPara {
+  font-weight: 500;
+}
+.cardImgtwo {
+  border-radius: 15px 15px 0 0 !important;
+}
+
+.cardBorder {
+  border-radius: 15px 15px 15px 15px !important;
+}
+
+.cardPara {
+  /* font-family:  !important; */
+  font-weight: 500;
+  color: var();
+}
+
+.cardTxt {
+  font-size: 13px !important;
+  white-space: nowrap;
+  overflow: hidden;
+  text-overflow: ellipsis;
+}
+.priceCard {
+  font-weight: 700;
+  font-size: 17px !important;
+}
+.heartIcon {
+  font-size: 22px !important;
+}
+.heartIcon:hover {
+  font-size: 22px !important;
+  color: #de1f26 !important;
+}
+.progressCard {
+  border-radius: 25px !important;
+  background-color: var(--progress-bar-color);
+}
+/*############### card section start########### */
+/*############### gallary start########### */
+.blood-donation-gallery {
+  display: flex;
+  /* flex-wrap: wrap; */
+  justify-content: space-around;
+}
+
+.blood-donation-item {
+  position: relative;
+  margin: 10px;
+  overflow: hidden;
+}
+
+.blood-donation-item img {
+  width: 100%;
+  height: auto;
+  transition: transform 0.3s;
+}
+
+.blood-donation-item .caption {
+  position: absolute;
+  bottom: 0;
+  left: 0;
+  right: 0;
+  background-color: rgba(0, 0, 0, 0.7);
+  color: white;
+  padding: 10px;
+  transform: translatex(100%);
+  transition: transform 0.3s;
+}
+
+.blood-donation-item:hover img {
+  transform: scale(1.1);
+}
+
+.blood-donation-item:hover .caption {
+  transform: translateY(0);
+}
+/* ##########gallary end ##########*/
+/* ##########background section start ##########*/
+.backgroundImg {
+  background: linear-gradient(rgba(0, 0, 0, 0.5), rgba(0, 0, 0, 0.5)),
+    url(/assets/images/blood-donor.png) repeat fixed 100%;
+  color: aliceblue;
+  position: relative;
+  height: 80vh;
+  background-repeat: no-repeat;
+  object-fit: cover;
+}
+.headingClr {
+  color: #fff !important;
+  font-weight: 500;
+}
+
+.backgroundcontainer {
+  position: absolute;
+  top: 50%;
+  left: 50%;
+  transform: translate(-50%, -50%);
+}
+.donatebutton{
+  border: 2px solid var(--border-color1);
+  color: var(--button-color);
+  font-weight: 700;
+  font-size: 18px;
+  padding-left: 30px !important;
+  padding-right: 30px !important;
+  border-radius: 50px;
+}
+.donatebutton:hover {
+  background-color: var(--hover-color2);
+  color: var(--button-color);
+  /* transition: 0.3s; */
+}
+/* ##########background section end##########*/
+
+/* <!-- ####################global-network start############ --> */
+.global-text h2 {
+  color: var(--heading6-color);
+}
+.global-text p {
+  color: var(--heading6-color);
+  font-size: 18px;
+}
+/* <!-- ####################global-network end############ --> */
+
+/* Style the FAQ section */
+.faq-start {
+  /* max-width: 800px; */
+  margin: 0 auto;
+  padding: 20px;
+  /* background-color: #f0f0f0; */
+}
+
+.faq-main {
+  margin-bottom: 20px;
+}
+
+.faq-title {
+  font-size: 24px;
+  font-weight: 600;
+  color: var(--paragraph-color3);
+}
+
+.faq-title1 {
+  font-size: 18px;
+  font-weight: 600;
+  color: var(--paragraph-color4);
+  cursor: pointer;
+  margin: 10px 0;
+  display: flex;
+  justify-content: space-between;
+  align-items: center;
+}
+
+.faq-content {
+  display: none;
+  font-size: 16px;
+  color: var(--paragraph-color4);
+  margin-top: 10px;
+}
+.faq-contain {
+  height: auto;
+}
+.plus-minus::before {
+  content: "+";
+  font-size: 30px;
+  color: var(--icon-color1);
+}
+
+.expanded .plus-minus::before {
+  content: "-";
+}
+.faq-hr {
+  color: var(--hr-color);
+}
+
+/* Media query for responsiveness */
+@media (max-width: 768px) {
+  .faq-results-group {
+    padding: 10px;
+  }
+
+  .faq-results-group-title {
+    font-size: 20px;
+  }
+
+  .faq-expand-title {
+    font-size: 16px;
+  }
+}
+ 
+ 
+ 
+
